@@ -2,8 +2,7 @@
   "profiles": {
     "AutoCompleteTest": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7166",
-      "launchBrowser": false
+      "commandLineArgs": "--port 7166 --verbose"
     }
   }
 }
