@@ -15,7 +15,7 @@ namespace AutoCompleteTest
         }
 
         [Function(nameof(AutoCompleteTest))]
-        public void Run([ServiceBusTrigger("{your-queuename-here}", Connection = "ServiceBusConnection")] ServiceBusReceivedMessage message)
+        public void Run([ServiceBusTrigger("{your-queuename-here}", Connection = "ServiceBusConnection", AutoCompleteMessages = false)] ServiceBusReceivedMessage message)
         {
             _logger.LogInformation("Message ID: {id}", message.MessageId);
             _logger.LogInformation("Message Body: {body}", message.Body);
