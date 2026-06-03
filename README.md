@@ -1,3 +1,4 @@
+**archived** - The issue this was spun up to demonstrate has since been fixed.
 # AutoCompleteTest
 Minimal example to test autocomplete config in azure servicebus triggers.  
 
